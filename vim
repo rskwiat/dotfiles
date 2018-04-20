@@ -6,3 +6,4 @@ set ruler
 set encoding=utf-8
 set wrap
 set textwidth=79
+set showcmd

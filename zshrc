@@ -12,6 +12,16 @@ alias server="python -m SimpleHTTPServer 8999"
 alias trash='sudo rm -rf ~/.Trash/**'
 alias youtube='open -a "Safari" http://youtube.com'
 
+# NPM Aliases
+
+alias np="npm"
+alias npmi="npm install"
+alias npmis="npm install --save"
+alias npmig="npm install -g"
+alias npu="npm update"
+alias npug="npm update -g"
+alias nps="npm search"
+
 # Any custom configuration for ssh logins below
 alias dev.server.com="ssh admin@IPADDRESS"
 
