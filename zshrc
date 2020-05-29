@@ -21,7 +21,8 @@ alias npmig="npm install -g"
 alias npu="npm update"
 alias npug="npm update -g"
 alias nps="npm search"
-alias npmplease="rm -rf node_modules/ && rm -f package-lock.json && npm install
+alias npmplease="rm -rf node_modules/ && rm -f package-lock.json && npm install"
+alias yarp="rm -rf node_modules/ && rm -rf yarn.lock && yarn"
 
 # Any custom configuration for ssh logins below
 alias dev.server.com="ssh admin@IPADDRESS"
