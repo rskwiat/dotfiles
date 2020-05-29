@@ -24,6 +24,9 @@ alias nps="npm search"
 alias npmplease="rm -rf node_modules/ && rm -f package-lock.json && npm install"
 alias yarp="rm -rf node_modules/ && rm -rf yarn.lock && yarn"
 
+alias docker_container_clean="docker rm $(docker ps -q -f status=exited)"
+alias docker_image_clean='docker rmi $(docker images -q -f "dangling=true")'
+
 # Any custom configuration for ssh logins below
 alias dev.server.com="ssh admin@IPADDRESS"
 
